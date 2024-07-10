@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 600px;
+    /* border: 5px solid greenyellow; */
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/header-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    /* border: 3px green solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 200px;
+    
+}
+.items{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    
+}
+.items li{
+list-style: none;
+
+}
+.items a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 40px;
+
+}
+main{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+}
+main button{
+    color: red;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: palevioletred;
+    color: black;
+}
+section{
+    height: 95vh;
+    
+    padding: 10rem 0;
+    background-color: #ddd;
+}
+.row{
+    /* width: 80%; */
+    height: 300px;
+    box-shadow: 10px 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.row1 .imgbox, .row2 .textbox{
+width: 50%;
+
+}
+.row2 .imgbox, .row1 .textbox{
+    width: 50%;
+    
+    }
+.row1{
+display: flex;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1 img{
+    width: 100%;
+    height: 300px;
+}
+.row2 img{
+    width: 100%;
+    height: 300px;
+}
+.row .textbox{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    /* padding: 10px; */
+    
+}
+.container{
+    /* border: 3px solid red; */
+        padding-left: 20rem;}
+/* }
+.row1 .textbox{
+    width: 50%;
+} */
